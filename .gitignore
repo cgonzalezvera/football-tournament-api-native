@@ -1,0 +1,52 @@
+# Binarios compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary, construido con `go test -c`
+*.test
+
+# Cobertura de código
+*.out
+coverage.txt
+coverage.html
+
+# Archivos de dependencias
+vendor/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Base de datos local (si usas SQLite para desarrollo)
+*.db
+*.sqlite
+*.sqlite3
+
+# Go workspace file
+go.work
+
+# Archivos temporales
+tmp/
+temp/
+
+# Datos de Docker (opcional, dependiendo de tu flujo de trabajo)
+# postgres_data/
