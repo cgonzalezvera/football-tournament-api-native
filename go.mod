@@ -1,4 +1,4 @@
-module github.com/cgonzalezvera/football-tournament-api-raw
+module github.com/cgonzalezvera/football-tournament-api-native
 
 go 1.24.3
 
